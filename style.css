@@ -21,13 +21,14 @@ body {
 }
 
 .logo {
-  width: 36px;
-  height: 36px;
+  width: 55px;
+  height: 55px;
   background: #6c2bd9;
-  border-radius: 10%;
+  border-radius: 50%;
   display: grid;
   place-items: center;
   font-weight: bold;
+  font-size: 30px;
 }
 
 /* Banner */
@@ -133,13 +134,16 @@ body {
 /* Bottom Nav */
 .bottom-nav {
   position: fixed;
-  bottom: 0;
+  bottom: 1px;
   left: 0;
   right: 0;
   background: #120b2a;
   display: flex;
   justify-content: space-around;
   padding: 15px 0;
+  color: rgba(145, 142, 142, 0.47);
+  height: inherit;
+  height: 80px;
 }
  
  
@@ -151,4 +155,9 @@ canvas {
       font-size: 24px;
       font-weight: bold;
     }
-  
+.language {
+  border: 1px solid black;
+  background-color: rgba(255, 0, 0, 0.315);
+  margin: 15px;
+  padding: 5px;
+}
