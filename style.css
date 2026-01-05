@@ -12,6 +12,7 @@ body {
 }
 
 /* Top Bar */
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -23,7 +24,7 @@ body {
   width: 36px;
   height: 36px;
   background: #6c2bd9;
-  border-radius: 50%;
+  border-radius: 10%;
   display: grid;
   place-items: center;
   font-weight: bold;
@@ -42,7 +43,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.alert-par{
+  border: 1px 5px 25px;
+  border-radius: 10%;
+}
 /* Alert */
 .alert {
   display: flex;
