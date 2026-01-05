@@ -44,6 +44,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#banner-image{
+  width: 240px;
+ 
+}
 .alert-par{
   border: 1px 5px 25px;
   border-radius: 16px;
