@@ -180,3 +180,161 @@ canvas {
   margin: 15px;
   padding: 5px;
 }
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #0b0f2e, #160c35);
+  color: #fff;
+  padding-bottom: 90px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* Balance Card */
+.balance-card {
+  margin: 15px;
+  padding: 16px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #6d2cff, #9b4dff);
+}
+
+.balance-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vip {
+  background: rgba(255,255,255,0.2);
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.balance-main h2 {
+  margin: 8px 0 12px;
+}
+
+.balance-main span {
+  font-size: 14px;
+}
+
+.limits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  font-size: 13px;
+}
+
+/* Menu */
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 15px;
+}
+
+.menu-item {
+  background: rgba(255,255,255,0.06);
+  border-radius: 14px;
+  padding: 14px 5px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* Investment */
+.investment {
+  margin: 15px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.06);
+}
+
+.coin {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.investment-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.days {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.days button {
+  flex: 1;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.days .active {
+  border: 1px solid #1aff8c;
+  color: #1aff8c;
+}
+
+.investment-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta {
+  background: linear-gradient(135deg, #1aff8c, #00d68f);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 14px;
+  font-weight: bold;
+}
+
+/* Records */
+.records {
+  padding: 15px;
+}
+
+.record {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-size: 13px;
+}
+
+.withdraw { color: #ffb347; }
+.recharge { color: #1aff8c; }
+
+/* Bottom Nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #120b2a;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.bottom-nav .active {
+  color: #1aff8c;
+}
