@@ -30,7 +30,17 @@ body {
   font-weight: bold;
   font-size: 30px;
 }
-
+.user-balance{
+  background-color: rgb(55, 255, 0);
+  position:absolute;
+  left: 45%;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 25px;
+}
 /* Banner */
 .banner {
   padding: 15px;
