@@ -57,4 +57,17 @@ socket.onmessage = (event) => {
 
   chart.update();
 };
+// Day selection logic
+document.querySelectorAll('.days button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.days button')
+      .forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+
+// CTA
+document.querySelector('.cta').addEventListener('click', () => {
+  alert("Investment flow coming next.");
+});
 
