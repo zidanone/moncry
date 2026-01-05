@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0b0f2e, #120b2a);
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  background: #6c2bd9;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}
+
+/* Banner */
+.banner {
+  padding: 15px;
+}
+
+.banner-box {
+  height: 140px;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Alert */
+.alert {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  opacity: 0.85;
+}
+
+/* Menu */
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+  gap: 10px;
+}
+.menu-par{
+    border: #0b0f2e;
+    padding: auto;
+    background-color: #6c2bd9;
+}
+.menu-item {
+  background: rgb(81, 0, 156);
+  border-radius: 10px;
+  padding: 15px 5px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-family: sans-serif;
+  box-shadow: 1px 2px 5px red;
+  
+}
+
+.menu-item:hover {
+    background-color: red;
+    font-size: 15px;
+    box-shadow: 2px 1px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 15px;
+}
+
+.card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+.price {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.green {
+  color: #1aff8c;
+}
+
+/* Market */
+.market {
+  padding: 15px;
+}
+
+.market h2 {
+  margin-bottom: 10px;
+}
+
+.market-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Bottom Nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #120b2a;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
