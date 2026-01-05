@@ -45,8 +45,12 @@ body {
 }
 .alert-par{
   border: 1px 5px 25px;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 16px;
   background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 /* Alert */
 .alert {
