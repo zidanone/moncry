@@ -79,6 +79,8 @@ body {
     padding: auto;
     background-color: #6a696e5b;
     border-radius: 16px;
+    padding: 5px;
+    margin: 15px;
 }
 .menu-item {
   /* background: rgba(255, 213, 5, 0.534); */
@@ -89,8 +91,8 @@ body {
   color: rgba(255, 255, 255, 0.623);
   position: relative;
   font-family: sans-serif;
-
   font-weight: bold;
+  box-shadow: 1px 1px 1px 1px red;
   
 }
 
@@ -104,8 +106,8 @@ body {
   padding: 15px;
 }
 
-.card {
-  background: rgba(255,255,255,0.06);
+.card-par {
+  background: linear-gradient(135deg, #7c2ff74b, #f107a34b);
   border-radius: 12px;
   padding: 12px;
   text-align: center;
@@ -133,7 +135,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /* Bottom Nav */
@@ -146,7 +148,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 15px 0;
-  color: rgba(145, 142, 142, 0.47);
+  color: rgba(13, 191, 13, 0.593);
   height: inherit;
   height: 80px;
 }
