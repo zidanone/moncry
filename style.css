@@ -71,7 +71,7 @@ body {
     border: #0b0f2e;
     padding: auto;
     background-color: #6c2bd9;
-    border-radius: 50%;
+    border-radius: 16px;
 }
 .menu-item {
   background: rgb(81, 0, 156);
