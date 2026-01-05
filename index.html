@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Crypto Menu</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
@@ -22,13 +23,7 @@
     </div>
   </section>
 
-  <!-- Alert -->
-  <div class="alert-par">
-  <section class="alert">
-    <span>📢</span>
-    <p>Hello. The new regulations on Binance are very strict for new users. The new address transfer controls on Binance will also face many obstacles. We recommend using Bybit-Okx-Bitget or other popular and easy-to-use exchanges in your country for a much smoother experience.</p>
-  </section>
-  </div>
+  
   <!-- Action Menu -->
   <div class="menu-par">
   <section class="menu">
@@ -70,25 +65,10 @@
 
   <!-- Market List -->
   <section class="market">
-    <h2>USDT Market</h2>
+    <h2>DOGE / USDT (Live)</h2>
+    <div id="price">Loading...</div>
+    <canvas id="dogeChart"></canvas>
 
-    <div class="market-row">
-      <span>BTC/USDT</span>
-      <span>93929.6</span>
-      <span class="green">0.06%</span>
-    </div>
-
-    <div class="market-row">
-      <span>ETH/USDT</span>
-      <span>3192.08</span>
-      <span class="green">0.06%</span>
-    </div>
-
-    <div class="market-row">
-      <span>DOGE/USDT</span>
-      <span>0.149237</span>
-      <span class="green">0.27%</span>
-    </div>
   </section>
 
   <!-- Bottom Nav -->
@@ -98,6 +78,7 @@
     <div>📊</div>
     <div>👤</div>
   </nav>
+
 
   <script src="script.js"></script>
 </body>
