@@ -46,7 +46,7 @@ body {
 .alert-par{
   border: 1px 5px 25px;
   border-radius: 16px;
-  background-color: purple;
+  background-color: #f107a3;
   display: flex;
   align-items: center;
   justify-content: center;
